@@ -1,0 +1,50 @@
+      body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(90deg, #EADFB4 50%, #F7F6BB 50%);
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #222;
+            color: #6196A6;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        audio {
+            display: block;
+            margin: 20px auto;
+            width: 80%;
+        }
+        .lyrics {
+            text-align: center;
+            padding: 20px;
+            line-height: 1.6;
+            overflow: auto;
+        }
+        .lyrics p {
+            margin: 0;
+            padding: 5px 0;
+        }
+        .lyrics p:nth-child(odd) {
+            background-color: #F6B17A;
+        }
+        .highlighted {
+            background-color: #F4EDCC;
+            font-weight: bold;
+        }
